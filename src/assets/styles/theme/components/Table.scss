@@ -1,0 +1,35 @@
+.MuiTableCell-root {
+    .MuiFormControl-root {
+        margin-bottom: 0px;
+    }
+    .MuiOutlinedInput-root {
+        margin: 5px 0px;
+    }
+}
+
+.table-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .MuiInputBase-root {
+        width: 80px;
+        height: 40px;
+    }
+    .MuiPaginationItem-previousNext {
+        border-radius: 10px;
+        border: 1px solid $input-border;
+        color: $input-border;
+    }
+    .MuiPaginationItem-page {
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .MuiPaginationItem-outlinedPrimary.Mui-selected {
+        background-color: $primary;
+        color: white;
+        border-radius: 10px;
+    }
+}
+

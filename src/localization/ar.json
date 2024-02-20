@@ -1,0 +1,87 @@
+{
+    "translation": {
+        "LoginValidation": {
+            "EmailRequired": "ArEmail is required",
+            "InvalidEmail": "ArEmail entered is not valid",
+            "EmailMaxLength": "ArEmail can have a maximum of 64 characters"
+        },
+        "LoginPage": {
+            "Title": "Login A",
+            "Input.Email": "EMAIL A",
+            "Input.Password": "PASSWORD A",
+            "RememberMe": "Remember Me A",
+            "ForgotPassword": "Forgot Password A",
+            "Btn.Login": "LOGIN A",
+            "Input.Phone": "PHONE NUMBER A",
+            "Btn.LogOut": "Logout A"
+        },
+        "ForgotPasswordPage": {
+            "Title": "Forgot Password A",
+            "Intro": "Don’t worry, enter the email address associated with your account and we will fix the issue A",
+            "Input.Email": "EMAIL A",
+            "Btn.Continue": "CONTINUE A",
+            "ForgotEmailAddress": "Forgot email address A",
+            "Contact": "Contact A",
+            "DevSupport": "Support A",
+            "VerificationTitle": "Verification A",
+            "VerificationIntro": "Enter the verification code sent to your email address {{ email }} to verify this account recovery A",
+            "Btn.Verify": "VERIFY A",
+            "CodeNotRecevied": "Verification code not received A",
+            "Sending": "Sending A",
+            "SendAgain": "Send code again A",
+            "SetPasswordTitle": "Set new password A",
+            "Input.NewPassword": "NEW PASSWORD A",
+            "Input.RetypePassword": "RETYPE PASSWORD A",
+            "Btn.UpdateAndLogin": "UPDATE & LOGIN A"
+        },
+        "UsersPage": {
+            "Title": "Users A",
+            "Table.SNo": "SI.No A",
+            "Table.Name": "Name A",
+            "Table.MbNo": "Mobile Number A",
+            "Table.Email": "Email A",
+            "Table.Block": "Block A",
+            "Table.Action": "Action A"
+        },
+        "Language": {
+            "Title": "Change Language A",
+            "Language": "LANGUAGE A"
+        },
+
+        "Profile": {
+            "Title": "Profile A",
+            "SubTitle": "PROFILE A",
+            "Name": "Name A",
+            "Phone": "Phone A"
+        },
+        "Settings": {
+            "Password": "Change Password A",
+            "Language": "Change Language A",
+            "Title": "SETTINGS A"
+        },
+        "VersionConfig": {
+            "Title.IOS": "iOS App Version A",
+            "Title.Android": " Android App Version A",
+            "Input.IOS.CurrentVersion": "iOS Current Version A ",
+            "Input.IOS.MinimumVersion": "iOS Minimum Version A",
+            "Input.IOS.Message": "iOS Update Message A",
+            "Input.Android.CurrentVersion": "Android Current Version A ",
+            "Input.Android.MinimumVersion": "Android Minimum Version A",
+            "Input.Android.Message": "Android Update Message A"
+        },
+        "VersionConfigValidation": {
+            "iosCurrentVRequired": "Ios CurrentVersion is required A",
+            "iosMinimumVRequired": "Ios MinimumVersion is required A",
+            "iosUpdateMsgRequired": "Ios Update Message is required A",
+            "androidCurrentVRequired": "Android CurrentVersion is required A",
+            "androidMinimumVRequired": "Android MinimumVersion is required A",
+            "androidUpdateMsgRequired": "Android Update Message is required A"
+        },
+
+        "SideBar": {
+            "Menu.Users": "Users A",
+            "Menu.VersionConfig": "Settings A",
+            "Menu.Group": "Group A"
+        }
+    }
+}

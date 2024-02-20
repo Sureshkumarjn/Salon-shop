@@ -1,0 +1,86 @@
+.report-video-link {
+    &:hover {
+        cursor: pointer;
+    }
+    text-decoration: underline;
+    color: $primary;
+}
+.report-modal-title {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+.spotlight-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.spotlight-video {
+    border-radius: 10px;
+}
+.footer-icon {
+    font-size: 18px !important;
+    color: gray;
+}
+.footer-text {
+    font-size: 14px !important;
+    color: gray;
+}
+
+.spot-light-btn {
+    background-color: rgb(227, 230, 231);
+    width: 76px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spot-light-txt {
+    font-weight: 700 !important;
+    color: $primary;
+    font-size: 11px !important;
+}
+.comment-userName {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+.comment-txt {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+.comment-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-delete {
+    color: $input-error !important;
+}
+.search-box {
+    margin-right: 20px;
+    img {
+        width: 20px;
+        color: white;
+        margin-right: 20px;
+    }
+
+    .MuiOutlinedInput-adornedStart {
+        padding: 0px 10px !important;
+    }
+
+    input {
+        padding: 12px 12px !important;
+        border: none !important;
+        color: #2b2f3d !important;
+    }
+}
+.select-box-style {
+    width: 200px !important;
+}
+.chip-color-active {
+    background-color: green !important;
+}
+.chip-color-draft {
+    background-color: $primary !important;
+}

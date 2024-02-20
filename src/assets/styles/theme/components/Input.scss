@@ -1,0 +1,66 @@
+.MuiInputBase-input {
+    font-size: 16px !important;
+    @include titillium-regular;
+    position: relative;
+}
+
+// For Select box
+.Mui-focused.MuiFormLabel-root,
+.has-value .MuiFormLabel-root {
+    top: 12px !important;
+}
+.has-value label {
+    color: black;
+}
+
+.MuiFormControl-root {
+    label {
+        top: -3px;
+    }
+}
+//To disable eye icon on Edge browser
+input::-ms-reveal,
+input::-ms-clear {
+    display: none !important;
+}
+
+.Mui-error {
+    color: $input-error !important;
+    margin: 0px !important;
+
+    .MuiOutlinedInput-notchedOutline {
+        border: 1px solid $input-error !important;
+    }
+    .MuiSvgIcon-root {
+        color: $input-error !important;
+    }
+}
+
+// App Date picker and Time picker
+.MuiInputAdornment-root .MuiButtonBase-root {
+    margin-right: 0px;
+}
+
+// App Date Picker
+.MuiPickersDay-root.MuiPickersDay-today,
+.MuiPickersDay-root.Mui-selected {
+    border-radius: 10px !important;
+}
+
+.MuiPickersDay-root:focus.Mui-selected {
+    background-color: $secondary !important;
+    border-radius: 10px !important;
+}
+
+.PrivatePickersYear-yearButton:focus.Mui-selected {
+    background-color: $secondary !important;
+}
+
+#menu-role {
+    .MuiPaper-root {
+        box-shadow: none !important;
+        border: 1px solid black;
+        border-radius: 10px;
+        border-top: 0.5px solid black;
+    }
+}

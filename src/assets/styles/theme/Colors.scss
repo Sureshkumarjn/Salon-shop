@@ -1,0 +1,54 @@
+@import './Variables';
+
+// Colors
+.primary {
+    color: $primary !important;
+}
+
+.secondary {
+    color: $secondary !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.text-primary {
+    color: $text-primary;
+}
+
+.text-secondary {
+    color: $text-secondary !important;
+}
+
+.text-gray {
+    color: $text-gray !important;
+}
+
+.text-href {
+    color: $text-href !important;
+}
+
+.text-error {
+    color: $text-error !important;
+}
+
+.text-green {
+    color: $text-green !important;
+}
+
+.text-black {
+    color: $text-black !important;
+}
+
+.text-alert {
+    color: $text-alert !important;
+}
+
+.input-placeholder {
+    color: $input-placeholder !important;
+}
+
+.bg-primary {
+    background-color: $primary;
+}

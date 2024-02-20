@@ -1,0 +1,27 @@
+.disabled {
+    color: #d1d1d1 !important;
+}
+.row-edit {
+    background-color: #d6eaf9;
+    .disabled {
+        color: gray !important;
+    }
+    .MuiInputBase-root {
+        background-color: white;
+        border-radius: 5px;
+        .MuiOutlinedInput-notchedOutline {
+            border-radius: 5px;
+        }
+    }
+}
+.allowed-types {
+    display: flex;
+
+    p {
+        margin-right: 10px;
+        color: white;
+        background-color: #a9a9a9;
+        border-radius: 5px;
+        padding: 0px 5px 2px;
+    }
+}

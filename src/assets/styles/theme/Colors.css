@@ -1,0 +1,52 @@
+.primary {
+  color: #019ade !important;
+}
+
+.secondary {
+  color: #e40521 !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.text-primary {
+  color: #019ade;
+}
+
+.text-secondary {
+  color: #e40521 !important;
+}
+
+.text-gray {
+  color: #767676 !important;
+}
+
+.text-href {
+  color: #3290ff !important;
+}
+
+.text-error {
+  color: #e40521 !important;
+}
+
+.text-green {
+  color: #09bd06 !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.text-alert {
+  color: #faff00 !important;
+}
+
+.input-placeholder {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.bg-primary {
+  background-color: #019ade;
+}
+/*# sourceMappingURL=Colors.css.map */

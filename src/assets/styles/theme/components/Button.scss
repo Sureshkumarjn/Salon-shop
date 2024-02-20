@@ -1,0 +1,139 @@
+@mixin btn-progress {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 10px;
+    font-size: 16px !important;
+    border-radius: 20px;
+}
+
+// Button Vairants
+.MuiButtonBase-root.MuiButton-root {
+    .MuiCircularProgress-root {
+        color: $white;
+        @include btn-progress();
+    }
+}
+
+.MuiButton-label {
+    font-weight: 600 !important;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.MuiButtonBase-root.btn-primary {
+    background-color: $btn-primary;
+    color: $white !important;
+    &:hover {
+        background-color: $btn-primary;
+    }
+    &:disabled {
+        color: $btn-primary !important;
+    }
+}
+.MuiButtonBase-root.Mui-disabled.btn-primary {
+    opacity: 0.5;
+}
+
+.MuiButtonBase-root.btn-secondary {
+    background-color: $btn-secondary;
+    color: white !important;
+    &:hover {
+        background-color: $btn-secondary;
+    }
+    .MuiCircularProgress-root {
+        color: $white;
+        @include btn-progress();
+    }
+}
+
+.MuiButtonBase-root.Mui-disabled.btn-secondary {
+    opacity: 0.5;
+}
+
+.MuiButtonBase-root.btn-dark {
+    background-color: $btn-dark;
+    color: $white !important;
+    &:hover {
+        background-color: $btn-dark;
+    }
+    .MuiCircularProgress-root {
+        color: $white;
+        @include btn-progress();
+    }
+}
+
+.MuiButtonBase-root.Mui-disabled.btn-dark {
+    opacity: 0.5;
+}
+
+.MuiButtonBase-root.btn-teritary {
+    background-color: $btn-terittary;
+    color: $btn-terittary-text !important;
+    &:hover {
+        background-color: $btn-terittary;
+    }
+    .MuiCircularProgress-root {
+        color: $btn-terittary-loader;
+        @include btn-progress();
+    }
+}
+
+.MuiButtonBase-root.Mui-disabled.btn-teritary {
+    opacity: 0.5;
+}
+
+// Button Sizes
+.MuiButtonBase-root.btn-small {
+    padding: 6px 24px !important;
+    height: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.MuiButtonBase-root.btn-medium {
+    padding: 4px 24px !important;
+    height: 42px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.MuiButtonBase-root.btn-extra-small {
+    padding: 15px !important;
+    font-weight: 400;
+    font-size: 12px;
+    height: 0px !important;
+}
+
+// Button Outline Vairants
+
+.MuiButtonBase-root.btn-primary-outlined {
+    background-color: transparent;
+    color: $primary !important;
+    border: 1px solid $primary;
+    &:hover {
+        background-color: white;
+    }
+    .MuiCircularProgress-root {
+        color: $primary;
+        @include btn-progress();
+    }
+}
+.MuiButtonBase-root.Mui-disabled.btn-primary-outlined {
+    opacity: 0.5;
+}
+
+.MuiButtonBase-root.btn-secondary-outlined {
+    background-color: transparent;
+    color: $btn-secondary !important;
+    border: 1px solid $btn-secondary;
+    &:hover {
+        background-color: white;
+    }
+    .MuiCircularProgress-root {
+        color: $btn-secondary;
+        @include btn-progress();
+    }
+}
+.MuiButtonBase-root.Mui-disabled.btn-secondary-outlined {
+    opacity: 0.5;
+}

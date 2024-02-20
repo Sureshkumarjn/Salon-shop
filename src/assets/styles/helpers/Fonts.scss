@@ -1,0 +1,29 @@
+// Titillium Web
+@mixin titillium-light {
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: 300 !important;
+}
+@mixin titillium-regular {
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: 400 !important;
+}
+@mixin titillium-semi-bold {
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: 600 !important;
+}
+@mixin titillium-bold {
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: 700 !important;
+}
+.titillium-light {
+    @include titillium-light;
+}
+.titillium-regular {
+    @include titillium-regular;
+}
+.titillium-semi-bold {
+    @include titillium-regular;
+}
+.titillium-bold {
+    @include titillium-bold;
+}

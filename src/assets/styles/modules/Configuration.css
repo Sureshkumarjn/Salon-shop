@@ -1,0 +1,35 @@
+.disabled {
+  color: #d1d1d1 !important;
+}
+
+.row-edit {
+  background-color: #d6eaf9;
+}
+
+.row-edit .disabled {
+  color: gray !important;
+}
+
+.row-edit .MuiInputBase-root {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.row-edit .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border-radius: 5px;
+}
+
+.allowed-types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.allowed-types p {
+  margin-right: 10px;
+  color: white;
+  background-color: #a9a9a9;
+  border-radius: 5px;
+  padding: 0px 5px 2px;
+}
+/*# sourceMappingURL=Configuration.css.map */

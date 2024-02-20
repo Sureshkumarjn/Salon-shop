@@ -1,0 +1,18 @@
+.otp-container {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.otp-input {
+    width: 50px !important;
+    height: 50px;
+    border: 1px solid $input-border;
+    border-radius: 10px;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    box-sizing: border-box;
+    &:focus {
+        outline: none;
+        border: 1px solid $input-focus-border;
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "name": "service-admin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@date-io/date-fns": "2.14.0",
+        "@emotion/react": "11.10.0",
+        "@emotion/styled": "11.10.0",
+        "@mui/icons-material": "5.8.4",
+        "@mui/material": "5.9.3",
+        "@mui/x-date-pickers": "^5.0.0",
+        "@reduxjs/toolkit": "1.8.3",
+        "@testing-library/jest-dom": "5.16.5",
+        "@testing-library/react": "13.3.0",
+        "@testing-library/user-event": "13.5.0",
+        "@types/jest": "27.5.2",
+        "@types/node": "16.11.47",
+        "@types/react": "18.0.15",
+        "@types/react-dom": "18.0.6",
+        "@types/react-redux": "7.1.24",
+        "axios": "0.27.2",
+        "date-fns": "2.29.1",
+        "dotenv": "16.0.3",
+        "env-cmd": "10.1.0",
+        "file-saver": "2.0.5",
+        "firebase": "^9.9.4",
+        "formik": "2.2.9",
+        "i18next": "21.8.16",
+        "immutability-helper": "3.1.1",
+        "moment": "2.29.4",
+        "react": "18.2.0",
+        "react-countdown": "2.3.2",
+        "react-dom": "18.2.0",
+        "react-helmet": "6.1.0",
+        "react-i18next": "11.18.3",
+        "react-otp-input": "2.4.0",
+        "react-redux": "8.0.2",
+        "react-router-dom": "6.3.0",
+        "react-scripts": "5.0.1",
+        "react-timeago": "^7.1.0",
+        "react-toastify": "9.0.8",
+        "redux": "4.2.0",
+        "redux-persist": "6.0.0",
+        "typescript": "4.7.4",
+        "uuid": "8.3.2",
+        "web-vitals": "2.1.4",
+        "xlsx": "0.18.5",
+        "yup": "0.32.11"
+    },
+    "scripts": {
+        "start": "npm run lint &&  react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint src/* --quiet --fix",
+        "build:development": "./node_modules/.bin/env-cmd -f .env.development yarn run build",
+        "build:stage": "./node_modules/.bin/env-cmd -f .env.stage yarn run build",
+        "build:prod": "./node_modules/.bin/env-cmd -f .env.prod yarn run build",
+        "build:test": "./node_modules/.bin/env-cmd -f .env.test yarn run build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/file-saver": "2.0.5",
+        "@types/react-helmet": "6.1.5",
+        "@types/react-timeago": "^4.1.3",
+        "@types/uuid": "8.3.4",
+        "@typescript-eslint/eslint-plugin": "5.32.0",
+        "@typescript-eslint/parser": "5.32.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-disable": "1.0.2",
+        "eslint-import-resolver-typescript": "3.4.0",
+        "eslint-plugin-airbnb": "0.0.1-security",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-jsx-a11y": "6.6.1",
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-react": "7.30.1",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "prettier": "2.7.1",
+        "sass": "1.54.3"
+    }
+}

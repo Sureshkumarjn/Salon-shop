@@ -1,0 +1,13 @@
+$fontSizes: 100;
+$fontScale: 1;
+@for $i from 5 through $fontSizes {
+    .f#{$i} {
+        font-size: $i * $fontScale + px !important;
+    }
+}
+
+@for $i from 5 through $fontSizes {
+    .lh#{$i} {
+        line-height: $i * $fontScale + px !important;
+    }
+}

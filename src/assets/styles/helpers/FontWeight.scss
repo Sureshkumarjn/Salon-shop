@@ -1,0 +1,7 @@
+$fontWeights: 8;
+$scale: 100;
+@for $i from 2 through $fontWeights {
+    .fw-#{$i} {
+        font-weight: $i * $scale !important;
+    }
+}

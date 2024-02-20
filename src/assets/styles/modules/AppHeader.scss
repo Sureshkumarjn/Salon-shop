@@ -1,0 +1,44 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    .menus {
+        display: flex;
+        align-items: center;
+        .menu {
+            padding: 12px !important;
+            height: 35px;
+            margin-right: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            img {
+                margin-right: 10px;
+            }
+        }
+        .circle-menu {
+            margin-right: 10px;
+            border: 1px solid $input-border;
+            width: 50px;
+            height: 50px;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .primary-menu {
+            color: $primary;
+        }
+        .primary-active {
+            background-color: $primary;
+            color: white;
+        }
+        .secondary-menu {
+            color: $secondary;
+            margin-right: 20px;
+        }
+        .secondary-active {
+            background-color: $secondary;
+            color: white;
+        }
+    }
+}

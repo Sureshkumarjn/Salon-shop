@@ -1,0 +1,106 @@
+$spaces: 50;
+$scale: 4;
+@mixin margin($size) {
+    margin: $size * $scale + px !important;
+}
+@mixin margin-top($size) {
+    margin-top: $size * $scale + px !important;
+}
+@mixin margin-left($size) {
+    margin-inline-start: $size * $scale + px !important;
+}
+@mixin margin-right($size) {
+    margin-inline-end: $size * $scale + px !important;
+}
+@mixin margin-bottom($size) {
+    margin-bottom: $size * $scale + px !important;
+}
+@mixin padding($size) {
+    padding: $size * $scale + px !important;
+}
+@mixin padding-top($size) {
+    padding-top: $size * $scale + px !important;
+}
+@mixin padding-left($size) {
+    padding-left: $size * $scale + px !important;
+}
+@mixin padding-right($size) {
+    padding-right: $size * $scale + px !important;
+}
+@mixin padding-bottom($size) {
+    padding-bottom: $size * $scale + px !important;
+}
+@for $i from 0 through $spaces {
+    .m-#{$i} {
+        @include margin($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .mt-#{$i} {
+        @include margin-top($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .ml-#{$i} {
+        @include margin-left($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .mr-#{$i} {
+        @include margin-right($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .mb-#{$i} {
+        @include margin-bottom($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .mx-#{$i} {
+        @include margin-left($i);
+        @include margin-right($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .my-#{$i} {
+        @include margin-top($i);
+        @include margin-bottom($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .p-#{$i} {
+        @include padding($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .pt-#{$i} {
+        @include padding-top($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .pl-#{$i} {
+        @include padding-left($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .pr-#{$i} {
+        @include padding-right($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .pb-#{$i} {
+        @include padding-bottom($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .px-#{$i} {
+        @include padding-left($i);
+        @include padding-right($i);
+    }
+}
+@for $i from 0 through $spaces {
+    .py-#{$i} {
+        @include padding-top($i);
+        @include padding-bottom($i);
+    }
+}

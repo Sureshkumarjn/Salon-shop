@@ -1,0 +1,41 @@
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    .auth-box-wrapper {
+        box-shadow: 0px 64px 40px -9px rgba(0, 0, 0, 0.25);
+        border-radius: 120px;
+        background: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+
+        .auth-box {
+            width: 354px;
+            box-shadow: 0px -1px 24px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .form-container {
+                margin: 31px 48px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .check-box:not(.Mui-checked) {
+                color: $checkbox-border;
+            }
+        }
+    }
+}
+.language-container {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 200px;
+}
